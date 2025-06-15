@@ -12,7 +12,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.lahaina",
+    name: "audio.primary.redwood",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -20,30 +20,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.lahaina.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libtinycompress",
-                "libaudioroute",
-                "libaudioutils",
-                "libexpat",
-                "libhidlbase",
-                "libprocessgroup",
-                "libutils",
-                "libaudioroute_ext",
-                "libhardware_legacy",
-                "libaudiocloudctrl",
-                "libresampler",
-                "libaudio_log_utils",
-                "android.hardware.power@1.2",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
+                "proprietary/vendor/lib/hw/audio.primary.redwood.so",
             ],
         },
     },
@@ -54,7 +31,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liba2dpoffload",
+    name: "liba2dpoffload_redwood",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -62,7 +39,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/liba2dpoffload.so",
+                "proprietary/vendor/lib/liba2dpoffload_redwood.so",
             ],
             shared_libs: [
                 "libaudioutils",

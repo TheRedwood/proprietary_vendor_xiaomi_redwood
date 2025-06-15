@@ -274,8 +274,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    audio.primary.lahaina \
-    liba2dpoffload \
+    audio.primary.redwood \
+    liba2dpoffload_redwood \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
