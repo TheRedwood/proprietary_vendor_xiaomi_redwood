@@ -286,15 +286,10 @@ PRODUCT_PACKAGES += \
     libaudiocloudctrl \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libmmhardware \
     libqtigef \
     libresampler \
-    libsndmonitor \
-    libssrec \
     libvideoNS \
     libxlog \
     com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide \
