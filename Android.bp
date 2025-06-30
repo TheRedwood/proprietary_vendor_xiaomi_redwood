@@ -7916,7 +7916,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "libgf_ca",
-                "libqti-perfd-client",
                 "libc",
                 "libm",
                 "libdl",
